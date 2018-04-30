@@ -5,6 +5,9 @@ body {
   margin: 0 10%;
   background-color: white;
 }
+.titlebanner img {
+  width: 100%;
+}
 .mainimage {
   background-image: url(../resources/feature.jpg);
   height: 30rem;
@@ -35,8 +38,9 @@ body {
   font-family: 'Amatic SC', cursive;
   text-align: center;
   display: block;
-  font-size: 3rem;
+  font-size: 2.7rem;
   align-content: center;
+  margin-top: 2rem;
 }
 .subheader img {
   height: 5rem;
@@ -50,20 +54,76 @@ body {
   display: flex;
 }
 .eachhighlight {
-  font-family: Times;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.2rem;
   border: IndianRed 2px solid;
-  font-size: 0.9rem;
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin: 1rem 5rem;
-  padding: 1rem 1.5rem;
-  width: 50%;
+  margin: 1rem 1rem;
+  padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+  width: 35%;
+  height: 30%;
 }
 .eachhighlight h3 {
   border-bottom: IndianRed 2px dotted;
+  padding: 0.5rem 0.5rem;
+  font-size: 2rem;
+  font-family: 'Amatic SC', cursive;
 }
 .eachhighlight img {
-  width: 80%;
+  width: 100%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centre {
+  border: IndianRed 2px solid;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 1rem 1.5rem;
+}
+.centre p {
+  margin-top: 1px;
+}
+.centre img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 18px;
+}
+.centre h3 {
+  border-bottom: IndianRed 2px dotted;
+  margin-top: 0.5rem;
+  font-size: 3rem;
+  padding: 0rem 0.5rem 1.5rem 0.5rem;
+  font-family: 'Amatic SC', cursive;
+}
+.pagebreak img {
+  height: 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+}
+.company {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+}
+.info {
+  width: 33%;
+  border: IndianRed solid 1px;
+  margin:1.5rem;
+}
+.info h3 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.5rem;
+}
+.info p {
+  font-family: 'Josefin Slab', serif;
 }
