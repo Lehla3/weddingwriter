@@ -5,8 +5,28 @@ body {
   margin: 0 10%;
   background-color: white;
 }
+.titlebanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: IndianRed;
+  color: white;
+  font-family: 'Josefin Slab', serif;
+  margin-top: 1rem;
+}
 .titlebanner img {
-  width: 100%;
+  width: 25%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.titlebanner h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+.titlebanner h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
 }
 .mainimage {
   background-image: url(../resources/feature.jpg);
@@ -25,26 +45,28 @@ body {
   color: white;
   font-family: 'Amatic SC', cursive;
   margin-top: 18rem;
-  margin-left: 18rem;
+  margin-left: 16rem;
   width: 40%;
   position: absolute;
   height: 25%;
 }
 .header h2 {
-  font-size: 5rem;
+  font-size: 4rem;
+  text-align: center;
 }
 .subheader {
   color: IndianRed;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Josefin Slab', serif;
   text-align: center;
   display: block;
-  font-size: 2.7rem;
+  font-size: 2rem;
   align-content: center;
   margin-top: 2rem;
 }
 .subheader img {
   height: 5rem;
-  margin-bottom: 0;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
 }
 .subheader h3 {
   margin-bottom: 5rem;
@@ -107,23 +129,43 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 .company {
   display: flex;
   justify-content: space-around;
   align-content: center;
   text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 .info {
   width: 33%;
-  border: IndianRed solid 1px;
+  border: IndianRed solid 2px;
   margin:1.5rem;
 }
 .info h3 {
   font-family: 'Amatic SC', cursive;
   font-size: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .info p {
   font-family: 'Josefin Slab', serif;
+  margin: 0.5rem 0.5rem;
+
+}
+.contact {
+  font-size: 1.5rem;
+}
+footer {
+  background-color: IndianRed;
+  color: white;
+  height: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  font-family: 'Josefin Slab', serif;
+}
+footer p {
+  margin-left: 0.5rem;
 }
